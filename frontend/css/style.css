@@ -1,0 +1,93 @@
+/* custom bootstrap */
+.row {
+    margin-top : 15px;
+}
+
+
+/* custom style */
+
+ul.mainMenu{
+    list-style: none;
+    display: inline-flex;
+    margin-top: 15px;
+}
+
+ul.mainMenu > li {
+    width: 150px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+ul.mainMenu > li > a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+ul.mainMenu > li:hover {
+    background-color: dodgerblue;
+}
+   
+.slideContent{
+    text-align: center;
+    height: 480px;
+    background: dodgerblue;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mainListItem{
+    width:80%;
+    margin: 0 auto;
+}
+
+.containerFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.itemBox {
+    width: 300px;
+    height: 350px;
+    background : transparent;
+    margin: 10px;
+    text-align: center;
+}
+
+.itemBox img {
+    margin-top: 10px;
+}
+
+.itemBox div{
+    margin-top: 10px;
+}
+
+.itemBox:hover{
+    border: 10px solid dodgerblue;
+    border-radius: 5px;
+}
+
+.containerFooter{
+    height: 250px;
+    background: lightslategrey
+}
+
+.contentFooter {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.footerItem{
+    margin-top:15px;
+    color:#fff;
+    font-weight: bold
+}
+
+.footerItem a {
+    color:#fff;
+}
+
+#map{
+    height:150px;
+}
